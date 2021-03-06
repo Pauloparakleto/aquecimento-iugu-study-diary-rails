@@ -7,24 +7,16 @@
 one: 
  name: Paulo Felipe
  email: alparakleto@gmail.com
- admin: true
- banished: 0
 
 two: 
  name: Paulo Rafael
  email: paulo.rafael@gmail.com
- admin: false
- banished: 0
 
 two: 
   name: Paulo Rafael
   email: paulo.rafael.silva@gmail.com
-  admin: false
-  banished: 0
 
 thre:
   name: Louis Souza
   email: louis.camoes.souza@gmail.com
-  admin: false
-  banished: 1
 

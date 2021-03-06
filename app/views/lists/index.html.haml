@@ -1,0 +1,15 @@
+%h1 All Activities
+- @index = 0
+%table.table.table-hover
+    %thead
+        %tr
+            %th{scope: "col"} #
+            %th{scope: "col"} Name
+            %th{scope: "col"} Descrição
+    %tbody
+    - @lists.each do | list |
+    - @index += 1 
+        %tr
+            %th{scope: "row"}= @index
+            %td= my_link_to list.name, lists_path(list)
+            %td= list.description
