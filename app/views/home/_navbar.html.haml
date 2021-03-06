@@ -1,5 +1,5 @@
 %nav.navbar.navbar-expand-lg.navbar-light.bg-light
-  %a.navbar-brand{href: root_path } Diário Online
+  %a.navbar-brand{href: root_path } Diário de Estudos
   %button.navbar-toggler{"aria-controls" => "navbarSupportedContent", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarSupportedContent", "data-toggle" => "collapse", type: "button"}
     %span.navbar-toggler-icon
   #navbarSupportedContent.collapse.navbar-collapse
@@ -7,7 +7,7 @@
     %ul.navbar-nav.ml-auto
       %li.nav-item.active
         %a.nav-link{href: "#"}
-          Notícias
+          Lista de tarefas
           %span.sr-only (current)
       - unless current_user
         %li.nav-item
@@ -18,10 +18,10 @@
       - if current_user
         - unless current_user.admin?
           %li.nav-item
-            %a.nav-link{href: "#"} Amigos
+            %a.nav-link{href: "#"} Adicionar tarefa
         - else
           %li.nav-item
-            %a.nav-link{href: "#"} Redação
+            %a.nav-link{href: "#"} Configurações
     %form.form-inline.my-2.my-lg-0
       %input.form-control.mr-sm-2{"aria-label" => "Search", placeholder: "Search", type: "search"}/
       %button.btn.btn-outline-success.my-2.my-sm-0{type: "submit"} Search
