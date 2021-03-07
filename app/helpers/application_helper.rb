@@ -5,6 +5,6 @@ module ApplicationHelper
     end
     def my_link_to_delete(text, href)
         href.gsub!(".", "/") 
-        "<a href='#{href}'>#{text}</a>".html_safe
+        "<a href='#{href}' data-method=""delete"">#{text}</a>".html_safe
     end
 end
