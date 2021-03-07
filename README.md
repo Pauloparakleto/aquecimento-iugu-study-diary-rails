@@ -11,7 +11,5 @@ This is the Rails versions of [Study Diary Bash Version](https://github.com/Paul
 
 ## Disclaimer
 
-1 - The currente version does not delete a task on the view (javascript staff);
-
-2 - It needs downcase before saving a task.
+1 - The currente version does not delete a task on the view (javascript staff).
 
