@@ -2,7 +2,8 @@ class ListsController < ApplicationController
   before_action :authenticate_user!
 
   def index
-    @lists = List.all
+    @q = List.ransack(params[:q])
+  @lists = @q.result(distinct: true)
   end
 
   def show

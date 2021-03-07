@@ -24,6 +24,8 @@ gem "haml-rails", "~> 2.0"
 #Devise for login
 gem 'devise'
 gem 'simple_form'
+# For search object
+gem 'ransack'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
