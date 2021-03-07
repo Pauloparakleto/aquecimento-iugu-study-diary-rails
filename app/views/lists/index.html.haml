@@ -6,6 +6,7 @@
             %th{scope: "col"} #
             %th{scope: "col"} Name
             %th{scope: "col"} Descrição
+            %th{scope: "col"} Categoria
     %tbody
     - @lists.each do | list |
     - @index += 1 
@@ -13,3 +14,4 @@
             %th{scope: "row"}= @index
             %td= my_link_to list.name, lists_path(list)
             %td= list.description
+            %td= list.category
