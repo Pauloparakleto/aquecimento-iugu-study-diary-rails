@@ -1,6 +1,5 @@
 class ListsController < ApplicationController
   before_action :authenticate_user!
-  before_action :set_search
 
   def index
     @q = List.ransack(params[:q])
