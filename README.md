@@ -2,6 +2,8 @@
 ## A study diary made on Rails 6
 This is the Rails versions of [Study Diary Bash Version](https://github.com/Pauloparakleto/aquecimento-iugu-study-diary).
 
+[Live demo](https://damp-reef-29097.herokuapp.com/)
+
 Here the user need to login to see, search and create a task.
 
 Main gems used:
